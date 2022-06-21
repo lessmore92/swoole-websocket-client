@@ -1,0 +1,26 @@
+{
+  "name": "lessmore92/swoole-websocket-client",
+  "description": "Easy-To-Use Swoole Websocket Client",
+  "minimum-stability": "dev",
+  "license": "library",
+  "authors": [
+    {
+      "name": "Lessmore92",
+      "email": "bahramisoft@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Lessmore92\\Swoole\\": "src",
+      "Lessmore92\\Psr\\": "src/Psr"
+    }
+  },
+  "require": {
+    "php": "^7.4|^8.0",
+    "psr/http-message": "1.0.x-dev",
+    "guzzlehttp/psr7": "2.4.x-dev"
+  },
+  "require-dev": {
+    "swoole/ide-helper": "@dev"
+  }
+}

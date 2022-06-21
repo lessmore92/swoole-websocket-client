@@ -17,8 +17,7 @@
   },
   "require": {
     "php": "^7.4|^8.0",
-    "psr/http-message": "1.0.x-dev",
-    "guzzlehttp/psr7": "2.4.x-dev"
+    "psr/http-message": "1.0.x-dev"
   },
   "require-dev": {
     "swoole/ide-helper": "@dev"

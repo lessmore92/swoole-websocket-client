@@ -2,7 +2,8 @@
   "name": "lessmore92/swoole-websocket-client",
   "description": "Easy-To-Use Swoole Websocket Client",
   "minimum-stability": "dev",
-  "license": "library",
+  "type": "library",
+  "license": "MIT",
   "authors": [
     {
       "name": "Lessmore92",

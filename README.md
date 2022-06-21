@@ -1,3 +1,24 @@
+# Easy-to-use Swoole WebSocket Client
+
+## Installation
+
+```
+composer require lessmore92/swoole-websocket-client
+```
+
+## Requirements
+
+* PHP>=7.4
+* [openswoole](https://openswoole.com/docs/get-started/installation)-4.11.1 (not tested other versions, maybe it works.)
+
+## Usage
+
+Just pass the web socket URL to `WebSocketClient`.
+
+
+### Note:
+* This library is for CLI-based scripts and does not work for web-based ones.
+* Because of web socket is async (and maybe be an always running task) it needs to be executed in the Swoole coroutine (`Co\run`); see sample below.
 
 ## Sample
 
@@ -14,7 +35,7 @@ run(function () {
 
     while ($webSocketClient->client->connected)
     {
-        $data = $webSocketClient->recv()->data;
+        $data = $webSocketClient->recv();
         var_dump($data);
     }
 });

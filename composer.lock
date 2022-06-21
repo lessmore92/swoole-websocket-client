@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "820450f55eef0f1ab2c2f6f6d36118dc",
+    "content-hash": "3451d5898ad70e640b99971e58a28133",
     "packages": [
         {
             "name": "psr/http-message",
@@ -109,7 +109,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "psr/http-message": 20,
         "swoole/ide-helper": 20
     },
     "prefer-stable": false,
